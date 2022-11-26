@@ -1008,6 +1008,7 @@ GameObject:
   - component: {fileID: 927629014}
   - component: {fileID: 927629013}
   - component: {fileID: 927629016}
+  - component: {fileID: 927629017}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1095,6 +1096,19 @@ MonoBehaviour:
   selectTime: 3
   currentSpeedText: {fileID: 533265739}
   selectGauge: {fileID: 1966946695}
+--- !u!114 &927629017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 927629012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e549cbe3f14ab45d09d8849e208018e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cart: {fileID: 0}
 --- !u!1 &963082094
 GameObject:
   m_ObjectHideFlags: 0

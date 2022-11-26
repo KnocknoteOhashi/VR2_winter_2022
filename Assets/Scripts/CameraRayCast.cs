@@ -71,6 +71,6 @@ public class CameraRayCast : MonoBehaviour
 
     void Loanch()
     {
-        SceneManager.LoadScene("Scene1");
+        SceneManager.LoadScene("Snowman");
     }
 }
