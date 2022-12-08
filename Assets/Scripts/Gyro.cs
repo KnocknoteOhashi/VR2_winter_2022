@@ -43,7 +43,7 @@ public class Gyro : MonoBehaviour
         string obj_name = other.gameObject.name;
         if (obj_name == "Teleporter1")
         {
-            SceneManager.LoadScene("Scene2");
+            SceneManager.LoadScene("IceEffect");
         }
     }
 }
